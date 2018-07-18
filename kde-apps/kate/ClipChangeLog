@@ -1,0 +1,6 @@
+*kate-4.12.5-r1 (21 Apr 2015)
+
+  21 Apr 2015; Yves-Alexis Perez <clipos@ssi.gouv.fr>
+  +kate-4.12.5-r1.ebuild, -kate-4.12.5.ebuild:
+  Force rebuild to drop python-exec dependency.
+ 

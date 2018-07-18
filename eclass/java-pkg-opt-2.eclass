@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/java-pkg-opt-2.eclass

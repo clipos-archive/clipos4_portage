@@ -1,0 +1,7 @@
+# Copyright 1999-2005 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/profiles/hardened/virtuals,v 1.17 2007/05/24 04:40:53 solar Exp $
+
+virtual/alsa			sys-kernel/clip-kernel
+virtual/linux-sources		sys-kernel/clip-kernel
+virtual/os-headers		sys-kernel/linux-headers

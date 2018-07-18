@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/kde4-base.eclass

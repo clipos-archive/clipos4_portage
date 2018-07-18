@@ -1,0 +1,31 @@
+# This file requires >=portage-2.1.1
+
+# Saleem Abdulrasool <compnerd@gentoo.org> (23 Nov 2007)
+# Unmask when we get HAL 0.5.10 straightened out
+media-sound/pulseaudio policykit
+
+# Donnie Berkholz <dberkholz@gentoo.org> (12 Nov 2007)
+# freedesktop.org bug #7459 committed fix breaks 3D apps
+# but "fix" is only relevant on USE=nptl
+=media-libs/mesa-7.0 nptl
+=x11-base/xorg-server-1.4 nptl
+
+# Robert Buchholz <rbu@gentoo.org> (29 Aug 2007)
+# PPTP Plugin doesn't work on amd64
+kde-misc/knetworkmanager pptp
+
+dev-java/sun-jdk nsplugin
+dev-java/sun-jre-bin nsplugin
+dev-java/ibm-jdk-bin nsplugin 
+dev-java/ibm-jre-bin nsplugin
+
+# Petteri Räty <betelgeuse@gentoo.org> (27 Apr 2007)
+# package.use.masked for security bug #161835
+# Not removed from ebuilds because this is the only 64 bit plugin
+# on amd64.
+dev-java/blackdown-jdk nsplugin
+dev-java/blackdown-jre nsplugin
+
+# These are for BSD only
+net-proxy/squid ipf-transparent pf-transparent
+app-admin/sshguard ipfilter

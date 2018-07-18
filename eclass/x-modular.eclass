@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/x-modular.eclass

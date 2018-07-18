@@ -1,0 +1,12 @@
+# CLIP ChangeLog for dev-libs/libverto
+
+*libverto-0.2.5-r1 (30 Dec 2014)
+
+  30 Dec 2014; Vincent Strubel <clipos@ssi.gouv.fr>
+  +libverto-0.2.5-r1.ebuild, -libverto-0.2.5.ebuild:
+
+*libverto-0.2.5 (11 Mar 2013)
+
+  11 Mar 2013; Thomas Calderon <clipos@ssi.gouv.fr>
+  +libverto-0.2.5.ebuild:
+  Initial import to support mit-krb5.

@@ -1,0 +1,32 @@
+# This file requires >=portage-2.1.2 (see bug #61732)
+
+# Strongly recommended, otherwise all logos, icons, etc. appear in b/w.
+app-editors/emacs xpm
+app-editors/emacs-cvs xpm
+
+# 2007/10/11 - Christian Heim <phreak@gentoo.org>
+# Nearly everything linking against dev-scheme/guile-1.8 needs USE=deprecated
+# for a sucessful build (see #163921)
+=dev-scheme/guile-1.8* deprecated
+
+# 2007/10/11 - Samuli Suominen <drac@gentoo.org>
+# Replaced noamazon USE flag with amazon for bug 134493, comment #1.
+media-sound/amarok amazon
+
+# 2007/10/17 - Roy Marples <uberlord@gentoo.org>
+# zeroconf is a good idea, and we should support it by default.
+net-misc/dhcpcd zeroconf
+
+# 2007/11/15 - Robin H. Johnson <robbat2@gentoo.org>
+# Convert from IUSE=nolvmstatic to (IUSE=static and package.use)
+sys-fs/lvm2 static
+
+# 2007/11/15 - Robin H. Johnson <robbat2@gentoo.org>
+# Convert from IUSE=lvm1 to (IUSE=lvm1 and package.use)
+# Scheduled for removal, so the tools support only LVM2 by default as of the
+# 2008.0 release.
+sys-fs/lvm2 lvm1
+
+# 2007/11/27 - Alin Năstac <mrness@gentoo.org>
+# mgetty have fax flag because it collides with hylafax otherwise (see bug 195467)
+net-dialup/mgetty fax

@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/xorg-2.eclass

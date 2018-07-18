@@ -1,0 +1,1 @@
+../../portage-overlay-clip/eclass/verictl2.eclass

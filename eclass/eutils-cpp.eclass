@@ -1,0 +1,1 @@
+../../portage-overlay-clip/eclass/eutils-cpp.eclass

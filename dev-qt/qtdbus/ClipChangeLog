@@ -1,0 +1,7 @@
+# ChangeLog for dev-qt/qtdbus
+
+*qtdbus-4.8.5-r1 (06 Oct 2016)
+
+  06 Oct 2016; Timothée Ravier <clipos@ssi.gouv.fr>
+  +qtdbus-4.8.5-r1.ebuild, -qtdbus-4.8.5.ebuild:
+  RBump to rebuild for GCC udapte.

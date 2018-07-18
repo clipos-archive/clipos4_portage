@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/font.eclass

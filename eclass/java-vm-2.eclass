@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/java-vm-2.eclass

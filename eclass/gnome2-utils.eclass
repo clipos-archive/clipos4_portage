@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/gnome2-utils.eclass

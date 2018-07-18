@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/mozconfig-v5.31.eclass

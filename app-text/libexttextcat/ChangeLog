@@ -1,0 +1,50 @@
+# ChangeLog for app-text/libexttextcat
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/app-text/libexttextcat/ChangeLog,v 1.4 2012/01/18 20:03:28 lxnay Exp $
+
+  18 Jan 2012; Fabio Erculiani <lxnay@gentoo.org> libexttextcat-3.2.0.ebuild:
+  keyword for ~arm
+
+  16 Jan 2012; Agostino Sarubbo <ago@gentoo.org> libexttextcat-3.2.0.ebuild:
+  Stable for amd64, wrt bug #398521
+
+*libexttextcat-3.2.0 (14 Nov 2011)
+
+  14 Nov 2011; Tomáš Chvátal <scarabeus@gentoo.org>
+  -libexttextcat-3.1.1.ebuild, +libexttextcat-3.2.0.ebuild:
+  Version bump to the latest, drop older unused now.
+
+*libexttextcat-3.1.1 (04 Oct 2011)
+
+  04 Oct 2011; Tomáš Chvátal <scarabeus@gentoo.org>
+  +libexttextcat-3.1.1.ebuild, +metadata.xml:
+  Pkgmove from libtextcat.
+
+*libtextcat-3.1.1 (04 Oct 2011)
+
+  04 Oct 2011; Tomáš Chvátal <scarabeus@gentoo.org>
+  -libtextcat-3.1.0.ebuild, +libtextcat-3.1.1.ebuild:
+  Bump to latest. Drop older.
+
+*libtextcat-3.1.0 (30 Sep 2011)
+
+  30 Sep 2011; Tomáš Chvátal <scarabeus@gentoo.org>
+  -libtextcat-3.0.1.ebuild, +libtextcat-3.1.0.ebuild:
+  Version bump to latest release. Drop older.
+
+*libtextcat-3.0.1 (23 Sep 2011)
+
+  23 Sep 2011; Tomáš Chvátal <scarabeus@gentoo.org>
+  -files/2.2-catalan-shorttexts.patch, -libtextcat-2.2.ebuild,
+  -files/2.2-exportapi.patch, +libtextcat-3.0.1.ebuild,
+  -files/2.2-openoffice.patch:
+  Bump to latest release, includes the libreo fixes.
+
+*libtextcat-2.2 (09 Aug 2011)
+
+  09 Aug 2011; Tomáš Chvátal <scarabeus@gentoo.org>
+  +files/2.2-catalan-shorttexts.patch, +files/2.2-exportapi.patch,
+  +libtextcat-2.2.ebuild, +files/2.2-openoffice.patch, +metadata.xml:
+  Initial commit for libtextcat package. Will be required by libreoffice-3.5,
+  currently bundled inside thus keeping keywords same as lo has.
+

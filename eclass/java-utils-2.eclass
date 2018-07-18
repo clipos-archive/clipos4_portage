@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/java-utils-2.eclass

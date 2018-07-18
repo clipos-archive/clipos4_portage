@@ -1,0 +1,1 @@
+../../portage-overlay/eclass/kernel-2.eclass

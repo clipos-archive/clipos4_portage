@@ -1,0 +1,23 @@
+# This file requires >=portage-2.1.1
+
+# Piotr Jaroszyński <peper@gentoo.org> (19 Nov 2007)
+# Mask python flag until ppc keyword is added to dev-python/pygments, bug #198989.
+sys-apps/paludis python
+
+=dev-java/ibm-jdk-bin-1.5* -nsplugin 
+=dev-java/ibm-jre-bin-1.5* -nsplugin
+
+#requires virtual/jdk-1.6
+~dev-util/checkstyle-4.3 test
+
+# 18 September 2007: Gilles Dartiguelongue <eva@gentoo.org>
+# Mask iptc flag until libiptcdata is keyworded
+media-gfx/gthumb iptc
+
+# Diego Pettenò <flameeyes@gentoo.org> (10 Nov 2007)
+# Tests for Linux-PAM 0.99 require >=sys-libs/glibc-2.4
+=sys-libs/pam-0.99* test
+
+# Samuli Suominen <drac@gentoo.org> (30 Nov 2007)
+# media-libs/aften broken, and not keyworded.
+media-video/avidemux aften

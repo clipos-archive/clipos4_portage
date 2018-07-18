@@ -1,0 +1,17 @@
+# ChangeLog for sci-mathematics/lpsolve
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sci-mathematics/lpsolve/ChangeLog,v 1.1 2011/07/24 11:43:57 scarabeus Exp $
+
+*lpsolve-5.5.2.0-r1 (02 Apr 2012)
+
+  02 Apr 2012; Vincent Strubel <clipos@ssi.gouv.fr>
+  +lpsolve-5.5.2.0-r1.ebuild, -lpsolve-5.5.2.0.ebuild:
+  Force rebuild
+
+*lpsolve-5.5.2.0 (24 Jul 2011)
+
+  24 Jul 2011; Tomáš Chvátal <scarabeus@gentoo.org> +lpsolve-5.5.2.0.ebuild,
+  +metadata.xml:
+  Initial commit. Fixes bug #282173. Build system change reported upstream as
+  bug fdo#39496.
+
