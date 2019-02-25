@@ -8,7 +8,7 @@ inherit kde4-base
 
 DESCRIPTION="Next generation of the Nepomuk project"
 KEYWORDS="amd64 ~arm ppc ppc64 x86 ~amd64-linux ~x86-linux"
-IUSE="debug minimal"
+IUSE="userland_GNU debug minimal"
 
 DEPEND="
 	$(add_kdeapps_dep kdepimlibs)
