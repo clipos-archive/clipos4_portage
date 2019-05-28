@@ -1,9 +1,0 @@
-# ChangeLog for app-crypt/hashalot
-
-*trousers-0.3.10-r2 (21 Dec 2016)
-
-  21 Dec 2016; Thomas Letan <clipos@ssi.gouv.fr>
-  +files/tpm-tools-1.3.8-build.patch, +files/tpm-tools-1.3.8-gold.patch,
-  +files/tpm-tools-1.3.9-gold.patch, +.ChangeLog.swp, +tpm-tools-1.3.8.ebuild,
-  +Manifest, +metadata.xml, +ChangeLog
-  Initial import of tpm-tools
