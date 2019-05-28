@@ -1,7 +1,0 @@
-# CLIP ChangeLog for virtual/perl-
-
-*perl- (31 May 2013)
-
-  31 May 2013; Vincent Strubel <clipos@ssi.gouv.fr>
-  perl-.ebuild:
-  Initial overlay import - clip-deps fix.

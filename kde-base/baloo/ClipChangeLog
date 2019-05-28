@@ -1,7 +1,0 @@
-# ClipChangeLog for kde-base/baloo
-
-*baloo-4.14.3-r1 (03 Jan 2017)
-
-  03 Jan 2017; Timothée Ravier <clipos@ssi.gouv.fr>
-  +baloo-4.14.3-r1.ebuild, -baloo-4.14.3.ebuild:
-  Add kde-base/kdebase-runtime conflict for 4.4.3 update.

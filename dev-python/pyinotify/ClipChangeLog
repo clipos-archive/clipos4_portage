@@ -1,6 +1,0 @@
-*pyinotify-0.9.4-r2 (21 Apr 2015)
-
-  21 Apr 2015; Yves-Alexis Perez <clipos@ssi.gouv.fr>
-  +pyinotify-0.9.4-r2.ebuild, -pyinotify-0.9.4-r1.ebuild:
-  Force rebuild to drop python-exec dependency.
- 
